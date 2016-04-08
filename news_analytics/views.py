@@ -21,3 +21,12 @@ def get_content(request):
     return render(request, 'landingpage.html', {'data': res})
 def showSearchresult(request):
     return render(request,'searchresults_bali.html')
+
+
+
+def login (request):
+    return render(request,'login.html')
+
+
+def signup (request):
+    return render(request,'signup.html')
