@@ -5,7 +5,7 @@ import search_call as sc
 
 # Create your views here.
 def landing_page(request):
-    return render(request, 'landingPage.html')
+    return render(request, 'landingpage.html')
 
 # api call to alchemy to get content
 def get_content(request):
