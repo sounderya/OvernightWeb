@@ -1,0 +1,208 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <title>Overnight Asia</title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/icomoon.css">
+        <link rel="stylesheet" href="css/jquery.timepicker.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <!-- jquery for form -->
+        <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.timepicker.js"></script>
+
+    </head>
+    <body>
+
+<div class="container-fluid">
+  <!-- header -->
+  <div class="row header-nav">
+    <div class="col-md-1"></div>
+   <div class="col-md-2"><img style="margin: 10px 10px;" src="img/overnightlogo1.png" width=40px"></div>
+    <div class="col-md-6"></div>
+    <div class="col-md-3"><br><a class="signingbuttons">Sign In</a> | <a class="signingbuttons">Sign Up</a></div>
+  </div>
+  <div class="row colorbar"></div><br>
+
+  <!-- overnight logo and traveler name -->
+<!--<div class="row">
+  <div class="col-md-1 col-xs-6"><br><img src="img/overnightlogo.png" width=80px><br></div>
+  <div class="col-md-7"></div>
+  <div class="col-md-3 col-xs-6"><h4 style="text-align: right; margin-top: 25px;">Traveler <span style="color: #ff5a00">Zeanne</span></h4></div>
+</div>-->
+  <!-- Hotel Details & Booking Summary Row-->
+  <div class="row"><br>
+    <div class="col-md-1"></div>
+
+    <div class="col-md-7">
+      <h3>Your Selection
+        <span style="color: #ff5a00; font-family: 'SF Regular'; font-size: 18px; margin-left: 60%;">Edit Search</span></h3>
+      <hr WIDTH=100%><br>
+      <h4>Hotel Details</h4>
+      <div class="whitebox"><br>
+        <h4 class="orangeinbox">Hotel Name</h4>
+        <h4 class="blackinbox">99 Sukhumvit Soi 3, Klongtoey Nua<br>
+        Wattana, Wattana, 1011 Bangkok, Thailand</h4>
+        <h4 class="orangeinbox">Room Type</h5>
+        <h4 class="blackinbox">Deluxe</h4><br>
+      </div><br>
+      <h4>Select Dates</h4>
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" placeholder="Check-in Date" id="checkindate">
+          <!--
+          <div class="input-group">
+          <input type="text" id="datepicker-my" class="form-control datebox" placeholder="Select Date" />
+          <span class="input-group-addon" id="datebutton" style="cursor:pointer; padding: 0px 0px;">
+            <img src="img/updown.png" style="width: 16px"></span>
+          </div> -->
+
+        </div>
+
+        <div class="col-md-8">
+          <input type="text" placeholder="Check-out Date" id="checkoutdate">
+        </div>
+      </div>
+      <br><br>
+
+    </div>
+    <div class="col-md-3"><br>
+      <div class="summarybox"><br>
+        <h4 class="whiteinbox">Booking Summary</h4><br>
+        <h5 class="whiteinbox" style="text-align: right">USD($) &nbsp; &nbsp; &nbsp;</h5>
+        <h5 class="whiteinbox">
+          Hotel<br><br>
+          Attractions<br><br>
+          Service Taxes<br><br><br><br>
+          Total<br><br>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+
+  <!-- Attractions Row-->
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10"><br>
+      <h4>Why don’t you complete your trip with these activities?<br>
+        We carefully curate these experiences.</h4><br>
+      <img src="img/bitmap2.png" class="resize"> &nbsp; &nbsp; <img src="img/bitmap3.png" class="resize"> &nbsp; &nbsp; <img src="img/Bitmap.png" class="resize"><br><br>
+      <img src="img/bitmap3.png" class="resize"> &nbsp; &nbsp; <img src="img/bitmap2.png" class="resize"> &nbsp; &nbsp; <img src="img/Bitmap.png" class="resize">
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+
+  <!--Booking Details Row-->
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-7"><br><br>
+      <h4>Hotel Transfer</h4>
+      <h5 style="color: #ff5a00">Please state if you require a chaffeur-driven car to your hotel.<br>
+        This is a complimentary service.</h5>
+      <input type="text" id="hoteltransfer"><br><br>
+      <h4>Select Transfer Location</h4>
+      <h5 style="color: #ff5a00">Current transfer locations are airports and railway stations only.</h5>
+      <input type="text" placeholder="Transfer Location" id="transferlocation">
+
+      <div class="row"><br>
+        <div class="col-md-5">
+          <h4>Estimated Time of Arrival</h4>
+          <input type="text" id="eta">
+        </div>
+        <div class="col-md-7">
+          <h4>Estimated Check-in Time</h4>
+          <input type="text" id="estcheckin">
+        </div>
+      </div><br><br>
+
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+
+
+  <!-- Payment Row-->
+  <div class="row"><br>
+    <div class="col-md-1"></div>
+    <div class="col-md-7">
+      <h3>Payment Method</h3>
+      <hr WIDTH=100%><br>
+      <input type="text" id="paymenttype"><br><br>
+      <h4>Card Details</h4>
+      <div class="whitebox"><br>
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="orangeinbox">Name as it appears on card</h4>
+              <input type="text" id="cardname" style="margin-left: 20px; width: 300px;"><br><br>
+            <h4 class="orangeinbox">Card Number</h4>
+            <input type="text" id="cardnumber" style="margin-left: 20px; width: 300px;"><br><br><br>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <h4 class="orangeinbox">Date of Expiry</h4>
+            <input type="text" id="cardexpiry" style="margin-left: 20px; width: 100px;"><br><br>
+            <h4 class="orangeinbox">CVC Code</h4>
+            <input type="text" id="cardcvc" style="margin-left: 20px; width: 100px;"><br><br>
+          </div>
+        </div>
+    </div><br>
+  </div>
+    <div class="col-md-4"></div>
+  </div>
+  <div class="row">
+    <div class="col-md-8"></div>
+    <div class="col-md-3" style="text-align: center;">
+      <a type="button" href="bookingconfirmation.html" class="btn" id="donebutton">Done</a>
+
+      <br><br><br><br><br>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="row header-nav"><br><br>
+    <div class="col-md-2"><center>About Us</center></div>
+    <div class="col-md-2"><center>Partners</center></div>
+    <div class="col-md-2"><center>Support</center></div>
+    <div class="col-md-2"><center>FAQ</center></div>
+    <div class="col-md-4">
+            <a class="fa fa-facebook box-icon-normal round animate-icon-bottom-to-top whitecol" href="#"></a>
+            <a class="fa fa-twitter box-icon-normal round animate-icon-bottom-to-top whitecol" href="#"></a>
+            <a class="fa fa-google-plus box-icon-normal round animate-icon-bottom-to-top whitecol" href="#"></a>
+            <a class="fa fa-linkedin box-icon-normal round animate-icon-bottom-to-top whitecol" href="#"></a>
+            <a class="fa fa-pinterest box-icon-normal round animate-icon-bottom-to-top whitecol" href="#"></a>
+    </div><br><br><br>
+  </div>
+
+</div>
+
+    <!--    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script> -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
