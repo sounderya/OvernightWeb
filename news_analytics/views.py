@@ -18,6 +18,6 @@ def get_content(request):
         res = sc.getNews(val)
         print "outside"
     # return HttpResponse(json.dumps({'data': res}), content_type="application/json")
-    return render(request, 'landingPage.html', {'data': res})
+    return render(request, 'landingpage.html', {'data': res})
 def showSearchresult(request):
     return render(request,'searchresults_bali.html')
