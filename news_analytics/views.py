@@ -30,3 +30,9 @@ def login (request):
 
 def signup (request):
     return render(request,'signup.html')
+
+def showBookingPage(request):
+    return render(request, 'bookingdetails.html')
+
+def showBookingConfirmation(request):
+    return render(request, 'bookingconfirmation.html')
