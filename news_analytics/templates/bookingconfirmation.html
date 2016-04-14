@@ -40,7 +40,7 @@
     <div class="col-md-1"></div>
     <div class="col-md-2"><img style="margin: 10px 10px;" src="{% static 'img/overnightlogo1.png'%}" width=40px></div>
     <div class="col-md-6"></div>
-    <div class="col-md-3"><br><a class="signingbuttons">Sign In</a> | <a class="signingbuttons">Sign Up</a></div>
+    <div class="col-md-3"><br><a class="signingbuttons">Hi John</a> | <a class="signingbuttons">Logout</a></div>
   </div>
   <div class="row colorbar"></div><br>
   <!-- overnight logo and traveler name -->
@@ -99,7 +99,10 @@
   <div class="row">
     <div class="col-md-8"></div>
     <div class="col-md-3" style="text-align: center;">
-      <button type="button" href="index.html" class="btn" id="donebutton">Done</button>
+        <form action="/showResult/">
+
+          <button class="btn" id="donebutton" onclick="submit">Done</button>
+      </form>
       <br><br><br><br><br>
     </div>
   </div>
