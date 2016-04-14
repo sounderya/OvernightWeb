@@ -36,3 +36,15 @@ def showBookingPage(request):
 
 def showBookingConfirmation(request):
     return render(request, 'bookingconfirmation.html')
+
+def showUserProfile(request):
+    return render(request, 'user-profile.html')
+
+def showUserProfileBookingHistory(request):
+    return render(request, 'user-profile-booking-history.html')
+
+def showUserProfileCards(request):
+    return render(request, 'user-profile-cards.html')
+
+def showUserProfileSettings(request):
+    return render(request, 'user-profile-settings.html')

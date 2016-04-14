@@ -14,7 +14,11 @@ urlpatterns = patterns('',
     url(r'^login/', 'news_analytics.views.login'),
     url(r'^signup/', 'news_analytics.views.signup'),
     url(r'^showBooking/', 'news_analytics.views.showBookingPage'),
-    url(r'^showBookingConfirmation/', 'news_analytics.views.showBookingConfirmation')
+    url(r'^showBookingConfirmation/', 'news_analytics.views.showBookingConfirmation'),
+    url(r'^showUserProfile/', 'news_analytics.views.showUserProfile'),
+    url(r'^showUserProfileBookingHistory/', 'news_analytics.views.showUserProfileBookingHistory'),
+    url(r'^showUserProfileCards/', 'news_analytics.views.showUserProfileCards'),
+    url(r'^showUserProfileSettings/', 'news_analytics.views.showUserProfileSettings')
 )
 
 
