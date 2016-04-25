@@ -18,7 +18,8 @@ urlpatterns = patterns('',
     url(r'^showUserProfile/', 'news_analytics.views.showUserProfile'),
     url(r'^showUserProfileBookingHistory/', 'news_analytics.views.showUserProfileBookingHistory'),
     url(r'^showUserProfileCards/', 'news_analytics.views.showUserProfileCards'),
-    url(r'^showUserProfileSettings/', 'news_analytics.views.showUserProfileSettings')
+    url(r'^showUserProfileSettings/', 'news_analytics.views.showUserProfileSettings'),
+    url(r'^showSearchresultJakarta/', 'news_analytics.views.showSearchresultJakarta')
 )
 
 

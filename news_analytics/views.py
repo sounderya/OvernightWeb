@@ -22,6 +22,9 @@ def get_content(request):
 def showSearchresult(request):
     return render(request,'searchresults_bali.html')
 
+def showSearchresultJakarta(request):
+    return render(request, 'searchresults_jakarta.html')
+
 
 
 def login (request):

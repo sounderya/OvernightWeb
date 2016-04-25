@@ -57,8 +57,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3">
-							<a class="logo" href="landingpage.html"> <img
-								class="origin square" src="img/overnightlogo1.png"
+							<a class="logo"> <img
+								class="origin square" src="{% static 'img/overnightlogo1.png'%}"
 								style="width: 40px;" alt="Image Alternative text"
 								title="Image Title" />
 							</a>
@@ -70,13 +70,14 @@
 
 									<li class="top-user-area-avatar"><a
 										href="user-profile.html"> <img class="origin round"
-											src="img/40x40.png" alt="Image Alternative text"
+											src="{% static 'img/40x40.png'%}" alt="Image Alternative text"
 											title="AMaze" />Hi, John
 									</a></li>
 
-									<li><a href="#">Sign In</a></li>
-									</li>
-									<li><a href="#">Sign Up</a></li>
+									<!--<li><a href="#">Sign In</a></li>
+									</li>-->
+									<li><a href="#" > Logout</a></li>
+									<!--<li><a href="#">Sign Up</a></li>-->
 							</div>
 						</div>
 					</div>
@@ -90,7 +91,7 @@
 
 		<div class="booking-title" id="search-dialog">
 
-			<form action="searchresults.html#results">
+			<form action="/showSearchresultJakarta/">
 				<div class="form-group form-group-lg form-group-icon-left">
 					<center>
 
@@ -213,7 +214,7 @@
 
 
 									<div class="booking-item-img-wrap">
-										<img src="img/kosenda-1.jpg" alt="Image Alternative text"
+										<img src="{% static 'img/kosenda-1.jpg'%}" alt="Image Alternative text"
 											title="" />
 										<div class="booking-item-img-num">
 											<i class="fa fa-picture-o"></i>8
@@ -295,7 +296,7 @@
 
 
 									<div class="booking-item-img-wrap">
-										<img src="img/artotel.jpg" alt="Image Alternative text"
+										<img src="{% static 'img/artotel.jpg'%}" alt="Image Alternative text"
 											title="" />
 										<div class="booking-item-img-num">
 											<i class="fa fa-picture-o"></i>8
@@ -374,7 +375,7 @@
 
 
 									<div class="booking-item-img-wrap">
-										<img src="img/akmani.jpg" alt="Image Alternative text"
+										<img src="{% static 'img/akmani.jpg'%}" alt="Image Alternative text"
 											title="" />
 										<div class="booking-item-img-num">
 											<i class="fa fa-picture-o"></i>8
@@ -458,7 +459,7 @@
 
 
 									<div class="booking-item-img-wrap">
-										<img src="img/oria.jpg" alt="Image Alternative text" title="" />
+										<img src="{% static 'img/oria.jpg'%}" alt="Image Alternative text" title="" />
 										<div class="booking-item-img-num">
 											<i class="fa fa-picture-o"></i>8
 										</div>
@@ -536,7 +537,7 @@
 
 
 									<div class="booking-item-img-wrap">
-										<img src="img/bellezza.jpg" alt="Image Alternative text" title="" />
+										<img src="{% static 'img/bellezza.jpg' %}" alt="Image Alternative text" title="" />
 										<div class="booking-item-img-num">
 											<i class="fa fa-picture-o"></i>8
 										</div>
@@ -614,7 +615,7 @@
 
 
 									<div class="booking-item-img-wrap">
-										<img src="img/morrissey.jpg" alt="Image Alternative text" title="" />
+										<img src="{% static 'img/morrissey.jpg'%}" alt="Image Alternative text" title="" />
 										<div class="booking-item-img-num">
 											<i class="fa fa-picture-o"></i>8
 										</div>
@@ -694,7 +695,7 @@
 
 
 									<div class="booking-item-img-wrap">
-										<img src="img/keraton.jpg" alt="Image Alternative text"
+										<img src="{% static 'img/keraton.jpg'%}" alt="Image Alternative text"
 											title="" />
 										<div class="booking-item-img-num">
 											<i class="fa fa-picture-o"></i>8
